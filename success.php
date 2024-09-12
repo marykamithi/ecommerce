@@ -1,6 +1,6 @@
 <?php
 
-require("common.php");
+require("includes/common.php");
 if (!isset($_SESSION['email'])) {
     header('location: index.php');
 }
@@ -21,7 +21,7 @@ mysqli_query($con, $query) or die($mysqli_error($con));
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <?php include 'header.php'; ?>
+        <?php include 'includes/header.php'; ?>
 
         <div class="container-fluid" id="content">
             <div class="col-md-12">

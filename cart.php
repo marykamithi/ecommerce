@@ -1,5 +1,5 @@
 <?php
-require("common.php");
+require("includes\common.php");
 if (!isset($_SESSION['email'])) {
     header('location: index.php');
 }
@@ -16,7 +16,7 @@ if (!isset($_SESSION['email'])) {
     </head>
     <body>
         <div class="container-fluid" id="content">
-            <?php include 'header.php'; ?>
+            <?php include 'includes\header.php'; ?>
             <div class="col-lg-4 col-md-6 ">
                     <img src="img/confirmorder.png" style="float: left;">
                 </div>
@@ -45,10 +45,10 @@ if (!isset($_SESSION['email'])) {
                                 while ($row = mysqli_fetch_array($result)) {
                                     $sum+= $row["Price"];
                                     $id .= $row["id"] . ", ";
-                                    echo "<tr><td>" . "#" . $row["id"] . "</td><td>" . $row["Name"] . "</td><td>Rs " . $row["Price"] . "</td><td><a href='cart-remove.php?id={$row['id']}' class='remove_item_link'> Remove</a></td></tr>";
+                                    echo "<tr><td>" . "#" . $row["id"] . "</td><td>" . $row["Name"] . "</td><td>Ksh " . $row["Price"] . "</td><td><a href='cart-remove.php?id={$row['id']}' class='remove_item_link'> Remove</a></td></tr>";
                                 }
                                 $id = rtrim($id, ", ");
-                                echo "<tr><td></td><td>Total</td><td>Rs " . $sum . "</td><td><a href='success.php?itemsid=" . $id . "' class='btn btn-primary'>Confirm Order</a></td></tr>";
+                                echo "<tr><td></td><td>Total</td><td>Ksh " . $sum . "</td><td><a href='success.php?itemsid=" . $id . "' class='btn btn-primary'>Confirm Order</a></td></tr>";
                                 ?>
                             </tbody>
                             <?php

@@ -20,7 +20,7 @@ if (isset($_SESSION['email'])) {
     </head>
 
     <body>
-        <?php include 'header.php'; ?>
+        <?php include 'includes\header.php'; ?>
         <div id="content">
             <div class="container-fluid decor_bg" id="login-panel">
                 <div class="col-lg-4 col-md-6">

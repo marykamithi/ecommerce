@@ -39,10 +39,10 @@ require("includes/common.php");
             <div class="row text-center" id="cameras">
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/5.jpg" alt="">
+                        <img src="img/1.jpg" alt="">
                         <div class="caption">
                             <h3>Cannon EOS </h3>
-                            <p>Price: Rs. 36000.00 </p>
+                            <p>Price: Ksh 36,000.00 </p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
@@ -67,7 +67,7 @@ require("includes/common.php");
                         <img src="img/2.jpg" alt="">
                         <div class="caption">
                             <h3>Nikon DSLR </h3>
-                            <p>Price: Rs. 40,000.00 </p>
+                            <p>Price: Ksh 40,000.00 </p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
@@ -93,7 +93,7 @@ require("includes/common.php");
                         <img src="img/3.jpg" alt="">
                         <div class="caption">
                             <h3>Sony DSLR</h3>
-                            <p>Price: Rs. 45000.00</p>
+                            <p>Price: Ksh 45,000.00</p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
@@ -119,7 +119,7 @@ require("includes/common.php");
                         <img src="img/4.jpg" alt="">
                         <div class="caption">
                             <h3>Olympus DSLR</h3>
-                            <p>Price: Rs. 50000.00</p>
+                            <p>Price: Ksh 50,000.00</p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
@@ -147,7 +147,7 @@ require("includes/common.php");
                         <img src="img/18.jpg" alt="">
                         <div class="caption">
                             <h3>Titan Model #301 </h3>
-                            <p>Price: Rs. 13000.00 </p>
+                            <p>Price: Ksh 13,000.00 </p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
@@ -173,7 +173,7 @@ require("includes/common.php");
                         <img src="img/19.jpg" alt="">
                         <div class="caption">
                             <h3>Titan Model #201</h3>
-                            <p>Price: Rs. 3000.00 </p>
+                            <p>Price: Ksh 3,000.00 </p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
@@ -199,7 +199,7 @@ require("includes/common.php");
                         <img src="img/20.jpg" alt="">
                         <div class="caption">
                             <h3>HMT Milan</h3>
-                            <p>Price: Rs. 8000.00 </p>
+                            <p>Price: Ksh 8,000.00 </p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
@@ -225,7 +225,7 @@ require("includes/common.php");
                         <img src="img/21.jpg" alt="">
                         <div class="caption">
                             <h3>Faber Luba #111 </h3>
-                            <p>Price: Rs. 18000.00 </p>
+                            <p>Price: Ksh 18,000.00 </p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
@@ -253,7 +253,7 @@ require("includes/common.php");
                         <img src="img/22.jpg" alt="">
                         <div class="caption">
                             <h3>H&W </h3>
-                            <p>Price: Rs. 800.00 </p>
+                            <p>Price: Ksh 800.00 </p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
@@ -279,7 +279,7 @@ require("includes/common.php");
                         <img src="img/23.jpg" alt="">
                         <div class="caption">
                             <h3>Luis Phil</h3>
-                            <p>Price: Rs. 1000.00</p>
+                            <p>Price: Ksh 1,000.00</p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
@@ -305,7 +305,7 @@ require("includes/common.php");
                         <img src="img/24.jpg" alt="">
                         <div class="caption">
                             <h3>John Zok</h3>
-                            <p>Price: Rs. 1500.00</p>
+                            <p>Price: Ksh 1,500.00</p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
@@ -331,7 +331,7 @@ require("includes/common.php");
                         <img src="img/25.jpg" alt="">
                         <div class="caption">
                             <h3>Jhalsani</h3>
-                            <p>Price Rs. 1300.00</p>
+                            <p>Price Ksh 1,300.00</p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>

@@ -20,7 +20,7 @@
     </head>
 <body>
 <?php
-include 'includes/header.php';
+include 'includes\header.php';
 ?>
 <div class="container" id="content">
     <img src="img/team1.jpg" style="float: left;">
@@ -45,7 +45,7 @@ include 'includes/header.php';
   </div>
 </div>
 <?php
-include 'includes/footer.php';
+include 'includes\footer.php';
 ?>
 </body>
 </html>
